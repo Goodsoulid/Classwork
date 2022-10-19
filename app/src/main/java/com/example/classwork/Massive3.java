@@ -12,10 +12,10 @@ public class Massive3 {
                 }
         };
 
-        for (int numbers2D = 0; numbers2D < numbers.length; numbers2D++){
-            for (int numbers1D = 0; numbers1D < numbers[numbers2D].length; numbers1D++){
-                for (int numbers1 = 0; numbers1 < numbers[numbers2D][numbers1D].length; numbers1++){
-                    System.out.print(numbers[numbers2D][numbers1D][numbers1] + "\t");
+        for (int i = 0; i < numbers.length; i++){
+            for (int j = 0; j < numbers[i].length; j++){
+                for (int k = 0; k < numbers[i][j].length; k++){
+                    System.out.print(numbers[i][j][k] + "\t");
                 }
                 System.out.println();
             }
